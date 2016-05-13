@@ -1,0 +1,1 @@
+include ':app', ':lib_nvc_android-1.0.1'

@@ -1,0 +1,15 @@
+Create Project
+-ID:eastern-perigee-131023
+-NUMBER:389480760586
+Add credentials to your project
+keytool -exportcert -keystore "C:\Users\vcuon\.android\debug.keystore" -list -v
+or
+keytool -list -v -keystore "C:\Users\vcuon\.android\debug.keystore"
+->SHA1: 38:5D:9F:4D:2D:4D:9C:B2:D0:EF:59:7D:2D:5D:F2:D4:17:FA:42:B4
+https://console.developers.google.com//start/api?id=drive&credential=client_key
+Package: com.cuong.driveexample
+->API key:AIzaSyAVp_ZA2y4_MqmjUxnufphFhMO7uuHH3oo
+->OAuth 2.0 client IDs:389480760586-3vprurm9903omd8uphl40mhpps7pmpto.apps.googleusercontent.com
+
+Step 1:
+https://developers.google.com/drive/android/auth#connecting_and_authorizing_the_google_drive_android_api
