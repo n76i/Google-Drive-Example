@@ -13,3 +13,5 @@ Package: com.cuong.driveexample
 
 Step 1:
 https://developers.google.com/drive/android/auth#connecting_and_authorizing_the_google_drive_android_api
+Step 2: 
+https://developers.google.com/drive/android/files#lifecycle_of_a_drive_file
