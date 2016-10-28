@@ -13,10 +13,8 @@ import android.widget.ListView;
 import com.cuong.lib_nvc_android.util.DataUtils;
 import com.cuong.lib_nvc_android.util.ToastUtils;
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.drive.Drive;
 import com.google.android.gms.drive.DriveApi.DriveContentsResult;
 import com.google.android.gms.drive.DriveFolder;
-import com.google.android.gms.drive.Metadata;
 
 import java.io.File;
 import java.io.FileInputStream;

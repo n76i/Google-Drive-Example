@@ -4,8 +4,8 @@ Create Project
 Add credentials to your project
 keytool -exportcert -keystore "C:\Users\vcuon\.android\debug.keystore" -list -v
 or
-keytool -list -v -keystore "C:\Users\vcuon\.android\debug.keystore"
-->SHA1: 38:5D:9F:4D:2D:4D:9C:B2:D0:EF:59:7D:2D:5D:F2:D4:17:FA:42:B4
+keytool -list -v -keystore "C:\Users\Clover\.android\debug.keystore"
+->SHA1: 92:8D:4D:BE:17:39:92:7F:5D:15:C3:2F:29:87:26:F9:53:A9:94:92
 https://console.developers.google.com//start/api?id=drive&credential=client_key
 Package: com.cuong.driveexample
 ->API key:AIzaSyAVp_ZA2y4_MqmjUxnufphFhMO7uuHH3oo
@@ -15,3 +15,8 @@ Step 1:
 https://developers.google.com/drive/android/auth#connecting_and_authorizing_the_google_drive_android_api
 Step 2: 
 https://developers.google.com/drive/android/files#lifecycle_of_a_drive_file
+
+netsh wlan set hostednetwork mode=allow ssid=gacon key=123456789
+netsh wlan start hostednetwork
+
+netsh wlan stop hostednetwork
